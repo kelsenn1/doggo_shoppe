@@ -2,13 +2,6 @@ import './App.css';
 import { FiActivity } from "react-icons/fi";
 import React from "react";
 
-function importAll(r) {
-    let images = {};
-    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
-    return images;
-  }
-const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg)$/));
-
 function App() {
   return (
     <>
@@ -24,7 +17,7 @@ function App() {
             <div class="menu-principal">
                 <div class="header-1">
                     <div class="logo">
-                        <img src={images["logo.png"]}/>
+                        <img src={require("./src/imag/doggo_logo.png")}/>
                     </div>
                     <div class="titulo">
                         <h1>DOGGO SHOPPE</h1>
