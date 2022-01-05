@@ -1,7 +1,6 @@
 import './App.css';
-import { FiActivity } from "react-icons/fi";
+import { FaFacebook } from "react-icons/fa";
 import React from "react";
-require="./imag/";
 
 function App() {
   return (
@@ -56,7 +55,7 @@ function App() {
             <div class="rodape">
                 <div class="rodape-centro">
                     <div class="redes-sociais-rp">
-                        <a href="https://www.facebook.com/doggoshoppe"><img src="./imag/face.png"/></a>
+                        <a href="https://www.facebook.com/doggoshoppe"><img src={ BsFacebook }/></a>
                         <a href="https://www.instagram.com/doggo_shoppe_2022/"><img src="./imag/insta.png"/></a>
                         <a href="https://br.pinterest.com/lukealter20210008/"><img src="./imag/pinterest.png"/></a>
                     </div>
