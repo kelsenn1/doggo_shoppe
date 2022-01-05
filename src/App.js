@@ -1,6 +1,7 @@
 import './App.css';
 import { FiActivity } from "react-icons/fi";
 import React from "react";
+import 
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
             <div class="menu-principal">
                 <div class="header-1">
                     <div class="logo">
-                        <img src={require("./src/imag/doggo_logo.png")}/>
+                        <img src={require("./src/imag/doggo_logo.png").default}/>
                     </div>
                     <div class="titulo">
                         <h1>DOGGO SHOPPE</h1>
