@@ -2,6 +2,7 @@ import './App.css';
 import { FaFacebook } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsPinterest } from "react-icons/bs";
+import { logo } from "./imag/doggo_logo.png";
 import React from "react";
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
             <div class="menu-principal">
                 <div class="header-1">
                     <div class="logo">
-                        <img src="./imag/doggo_logo.png"/>
+                        <img src={logo}/>
                     </div>
                     <div class="titulo">
                         <h1>DOGGO SHOPPE</h1>
@@ -38,8 +39,8 @@ function App() {
                         <div class="botoes">
                             <a class="HOME" href="">HOME</a>
                             <a class="SOBRE" href="">SOBRE</a>
-                            <a class="SERVICOS" href="">SERVI�OS</a>
-                            <a class="PAGINAS_item" href="">P�GINAS</a>
+                            <a class="SERVICOS" href="">SERVIÇOS</a>
+                            <a class="PAGINAS_item" href="">PÁGINAS</a>
                             <a class="BLOG" href="">BLOG</a>
                             <a class="CONTATO" href="">CONTATO</a>
                         </div>
