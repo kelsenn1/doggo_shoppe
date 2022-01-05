@@ -1,5 +1,6 @@
 import './App.css';
 import { FaFacebook } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 import React from "react";
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
                     <div class="redes">
                         <div class="redes-sociais">
                             <a href="https://www.facebook.com/doggoshoppe"><FaFacebook/></a>
-                            <a href="https://www.instagram.com/doggo_shoppe_2022/"><img src="./imag/insta.png"/></a>
+                            <a href="https://www.instagram.com/doggo_shoppe_2022/"><AiFillInstagram /></a>
                             <a href="https://br.pinterest.com/lukealter20210008/"><img src="./imag/pinterest.png"/></a>
                         </div>
                     </div>
