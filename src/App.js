@@ -16,16 +16,16 @@ function App() {
             <div class="menu-principal">
                 <div class="header-1">
                     <div class="logo">
-                        <img src="../imag/doggo_logo.png"/>
+                        <img src="./imag/doggo_logo.png"/>
                     </div>
                     <div class="titulo">
                         <h1>DOGGO SHOPPE</h1>
                     </div>
                     <div class="redes">
                         <div class="redes-sociais">
-                            <a href="https://www.facebook.com/doggoshoppe"><img src="../imag/face.png"/></a>
-                            <a href="https://www.instagram.com/doggo_shoppe_2022/"><img src="../imag/insta.png"/></a>
-                            <a href="https://br.pinterest.com/lukealter20210008/"><img src="../imag/pinterest.png"/></a>
+                            <a href="https://www.facebook.com/doggoshoppe"><img src="./imag/face.png"/></a>
+                            <a href="https://www.instagram.com/doggo_shoppe_2022/"><img src="./imag/insta.png"/></a>
+                            <a href="https://br.pinterest.com/lukealter20210008/"><img src="./imag/pinterest.png"/></a>
                         </div>
                     </div>
                 </div>
@@ -54,9 +54,9 @@ function App() {
             <div class="rodape">
                 <div class="rodape-centro">
                     <div class="redes-sociais-rp">
-                        <a href="https://www.facebook.com/doggoshoppe"><img src="../imag/face.png"/></a>
-                        <a href="https://www.instagram.com/doggo_shoppe_2022/"><img src="../imag/insta.png"/></a>
-                        <a href="https://br.pinterest.com/lukealter20210008/"><img src="../imag/pinterest.png"/></a>
+                        <a href="https://www.facebook.com/doggoshoppe"><img src="./imag/face.png"/></a>
+                        <a href="https://www.instagram.com/doggo_shoppe_2022/"><img src="./imag/insta.png"/></a>
+                        <a href="https://br.pinterest.com/lukealter20210008/"><img src="./imag/pinterest.png"/></a>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ function App() {
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-        <script type="text/javascript" src="../javascript/main.js"></script>
+        <script type="text/javascript" src="./javascript/main.js"></script>
     </body>
     </>
   );
