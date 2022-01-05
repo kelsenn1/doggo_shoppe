@@ -17,7 +17,7 @@ function App() {
             <div class="menu-principal">
                 <div class="header-1">
                     <div class="logo">
-                        <img src={require("./src/imag/doggo_logo.png").default}/>
+                        <img src={require("./imag/doggo_logo.png").default}/>
                     </div>
                     <div class="titulo">
                         <h1>DOGGO SHOPPE</h1>
