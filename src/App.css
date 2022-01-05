@@ -233,7 +233,7 @@
     z-index: 9;
     top: 0px;
     left: 0%;
-    background-image: url(../imag/seta_esq.png);
+    background-image: url(./imag/seta_esq.png);
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: right;
@@ -250,7 +250,7 @@
     z-index: 9;
     top: 0px;
     right: 0%;
-    background-image: url(../imag/seta_dir.png);
+    background-image: url(./imag/seta_dir.png);
     background-repeat: no-repeat;
     background-position-y: center;
     cursor: pointer;
