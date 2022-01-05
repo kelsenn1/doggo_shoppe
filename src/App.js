@@ -2,8 +2,18 @@ import './App.css';
 import { FaFacebook } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsPinterest } from "react-icons/bs";
-import "./imag/doggo_logo.png";
 import React from "react";
+
+function importAll(r) {
+    let images = {};
+    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+    return images;
+  }
+  
+const images = importAll(require.context('./imag', false, /\.(png|jpe?g|svg)$/));
+  
+  <img src={images['doggy.png']} />
+
 
 function App() {
   return (
@@ -20,7 +30,7 @@ function App() {
             <div class="menu-principal">
                 <div class="header-1">
                     <div class="logo">
-                        <a href="./imag/doggo_logo.png"/>
+                        <img src={images["./imag/doggo_logo.png"]}/>
                     </div>
                     <div class="titulo">
                         <h1>DOGGO SHOPPE</h1>
