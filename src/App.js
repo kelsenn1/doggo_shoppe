@@ -1,5 +1,6 @@
 import './App.css';
 import { FiActivity } from "react-icons/fi";
+import './imag';
 
 function App() {
   return (
