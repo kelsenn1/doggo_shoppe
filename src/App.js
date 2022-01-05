@@ -24,7 +24,7 @@ function App() {
                     </div>
                     <div class="redes">
                         <div class="redes-sociais">
-                            <a href="https://www.facebook.com/doggoshoppe"><img src="./imag/face.png"/></a>
+                            <a href="https://www.facebook.com/doggoshoppe"><FaFacebook/></a>
                             <a href="https://www.instagram.com/doggo_shoppe_2022/"><img src="./imag/insta.png"/></a>
                             <a href="https://br.pinterest.com/lukealter20210008/"><img src="./imag/pinterest.png"/></a>
                         </div>
