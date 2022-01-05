@@ -20,7 +20,7 @@ function App() {
             <div class="menu-principal">
                 <div class="header-1">
                     <div class="logo">
-                        <img src={require(logo).default}/>
+                        <img src={logo}/>
                     </div>
                     <div class="titulo">
                         <h1>DOGGO SHOPPE</h1>
