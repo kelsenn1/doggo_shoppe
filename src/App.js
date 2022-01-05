@@ -1,7 +1,7 @@
 import './App.css';
 import { FiActivity } from "react-icons/fi";
 import React from "react";
-import "./imag/doggo_logo.png"
+require="./imag/";
 
 function App() {
   return (
