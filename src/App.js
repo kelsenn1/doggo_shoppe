@@ -20,7 +20,7 @@ function App() {
             <div class="menu-principal">
                 <div class="header-1">
                     <div class="logo">
-                        <url>"./imag/doggo_logo.png"</url>
+                        <a href="./imag/doggo_logo.png"/>
                     </div>
                     <div class="titulo">
                         <h1>DOGGO SHOPPE</h1>
