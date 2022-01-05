@@ -11,9 +11,6 @@ function importAll(r) {
   }
   
 const images = importAll(require.context('./imag', false, /\.(png|jpe?g|svg)$/));
-  
-  <img src={images['doggy.png']} />
-
 
 function App() {
   return (
