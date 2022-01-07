@@ -2,7 +2,7 @@ import './App.css';
 import { FaFacebook } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsPinterest } from "react-icons/bs";
-import "./imag/doggo_logo.png";
+import logo from "./imag/doggo_logo.png";
 import React from "react";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
             <div class="menu-principal">
                 <div class="header-1">
                     <div class="logo">
-                        <img src="./imag/doggo_logo.png"/>
+                        <img src={logo}/>
                     </div>
                     <div class="titulo">
                         <h1>DOGGO SHOPPE</h1>
