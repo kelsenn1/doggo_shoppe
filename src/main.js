@@ -76,7 +76,7 @@ function getRelevancy(value, searchTerm) {
     }
 }
 
-searchInput.addEventListener("input", (event) => {
+searchInput.addEventListener(input, (event) => {
     let value = event.target.value;
     if (value && value.trim().length > 0) {
         value && value.trim().toLowerCase();
