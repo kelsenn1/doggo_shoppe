@@ -74,7 +74,7 @@ function getRelevancy(value, searchTerm) {
     } else {
         return -1;
     }
-}
+};
 
 searchInput.addEventListener("input", (event) => {
     let value = event.target.value;
