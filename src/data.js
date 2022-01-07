@@ -1,4 +1,4 @@
-[
+pgs = [
     { "name": "coleira que brilha no escuro", "href": "https://s.click.aliexpress.com/e/_AchOwy", "desc": "O carregamento de usb conduziu o colar do c�o anti-perdido/evita o colar do acidente do carro para c�es cachorros coleiras do c�o conduz fontes conduzidas produtos do animal de estima��o", "img": "../imag/catal/prod1.jpg" },
     { "name": "escova para remo��o de pelos", "href": "https://s.click.aliexpress.com/e/_AFHdpW", "desc": "Escova para remo��o de pelos de animais de estima��o, pente para c�es e gatos, escova desembara�adora e aparadora de pelos longos, foscos", "img": "../imag/catal/prod2.jpg" },
     { "name": "capa para transporte de c�es no carro", "href": "https://s.click.aliexpress.com/e/_ASF9qo", "desc": "Prodigen c�o capa de assento do carro � prova dwaterproof �gua pet travel c�o transportadora hammock traseira do carro traseiro protetor de assento esteira transportadora seguran�a para c�es", "img": "../imag/catal/prod3.jpg" },
@@ -26,4 +26,4 @@
     { "name": "kit cercado e lona a prova d'�gua", "href": "https://s.click.aliexpress.com/e/_AoBeUS", "desc": "Novo tpu acolchoado pet cerca dampproof esteira do c�o imperme�vel e resistente � sujeira esteira do c�o camas de c�o extra grandes para c�es pequenos luxo", "img": "../imag/catal/prod25.jpg" },
     { "name": "bola de football americano", "href": "https://s.click.aliexpress.com/e/_A7rnIa", "desc": "Brinquedos de rugby do plut�nio do brinquedo da tra��o da bola da corda do c�o para cachorrinhos multi-funcionais brinquedos do enigma", "img": "../imag/catal/prod26.jpg" },
     { "name": "frisbee uma pe�a", "href": "https://s.click.aliexpress.com/e/_9RQ8j0", "desc": "1 p�s discos de v�o do c�o de estima��o brinquedos do c�o de estima��o treinamento discos voadores interativos mordida resistente s�lica gel macio personalizado foto discos voadores", "img": "../imag/catal/prod27.jpg" }
-]
+];

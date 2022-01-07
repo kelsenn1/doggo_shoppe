@@ -1,6 +1,6 @@
 import './App.css';
 import './main.js';
-import './data.json';
+import './data.js';
 import { FaFacebook } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsPinterest } from "react-icons/bs";
