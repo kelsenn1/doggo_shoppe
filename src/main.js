@@ -1,4 +1,4 @@
-pgs = [
+const pgs = [
     { name: "coleira que brilha no escuro", href: "https://s.click.aliexpress.com/e/_AchOwy", desc: "O carregamento de usb conduziu o colar do c�o anti-perdido/evita o colar do acidente do carro para c�es cachorros coleiras do c�o conduz fontes conduzidas produtos do animal de estima��o", img: "./imag/catal/prod1.jpg" },
     { name: "escova para remo��o de pelos", href: "https://s.click.aliexpress.com/e/_AFHdpW", desc: "Escova para remo��o de pelos de animais de estima��o, pente para c�es e gatos, escova desembara�adora e aparadora de pelos longos, foscos", img: "./imag/catal/prod2.jpg" },
     { name: "capa para transporte de c�es no carro", href: "https://s.click.aliexpress.com/e/_ASF9qo", desc: "Prodigen c�o capa de assento do carro � prova dwaterproof �gua pet travel c�o transportadora hammock traseira do carro traseiro protetor de assento esteira transportadora seguran�a para c�es", img: "./imag/catal/prod3.jpg" },
