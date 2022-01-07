@@ -1,28 +1,17 @@
 import './App.css';
 import './main.js';
-import "~slick-carousel/slick/slick.css"; 
-import "~slick-carousel/slick/slick-theme.css";
 import { FaFacebook } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsPinterest } from "react-icons/bs";
 import logo from "./imag/doggo_logo.png";
 import React from "react";
 
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
-
 function App() {
   return (
     <>
     <head>
         <link rel="stylesheet" href="./css/style.css"/>
-        <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+        <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link rel="shortcut icon" href="/imag/favicon.png" type="image/x-icon" />
         <title>doggo shoppe</title>
     </head>
@@ -62,7 +51,7 @@ function App() {
                         </div>
                     </div>                
                 </div>
-            <div class="banner1" id="banner1"{...settings}>
+            <div class="banner1" id="banner1">
             </div>
             <div class="publicacoes" id="pubs">
                 <ul class="pubList" id="pubList"></ul>
