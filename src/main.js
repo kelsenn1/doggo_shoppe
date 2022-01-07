@@ -128,13 +128,13 @@ for (const pg of pgs) {
     banner1.appendChild(imag);
 };
 
-$(".banner1").slick({
-    slidesToShow: 3,
-    slidesToScroll: 17,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    dots: true,
-    infinite: true,
-    centerMode: true,
-    variableWidth: true
-});
+// $(".banner1").slick({
+//     slidesToShow: 3,
+//     slidesToScroll: 17,
+//     autoplay: true,
+//     autoplaySpeed: 2000,
+//     dots: true,
+//     infinite: true,
+//     centerMode: true,
+//     variableWidth: true
+// });
