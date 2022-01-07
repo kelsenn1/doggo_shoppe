@@ -10,7 +10,7 @@ function App() {
     <>
     <head>
         <link rel="stylesheet" href="./css/style.css"/>
-        {/* <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> */}
+        <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link rel="shortcut icon" href="/imag/favicon.png" type="image/x-icon" />
         <title>doggo shoppe</title>
     </head>
