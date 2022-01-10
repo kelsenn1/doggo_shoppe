@@ -18,16 +18,16 @@ function App() {
 
     <body>
         <header>
-            <div class="menu-principal">
-                <div class="header-1">
-                    <div class="logo">
+            <div className="menu-principal">
+                <div className="header-1">
+                    <div className="logo">
                         <img src={logo}/>
                     </div>
-                    <div class="titulo">
+                    <div className="titulo">
                         <h1>DOGGO SHOPPE</h1>
                     </div>
-                    <div class="redes">
-                        <div class="redes-sociais">
+                    <div className="redes">
+                        <div className="redes-sociais">
                             <a href="https://www.facebook.com/doggoshoppe"><FaFacebook/></a>
                             <a href="https://www.instagram.com/doggo_shoppe_2022/"><AiFillInstagram /></a>
                             <a href="https://br.pinterest.com/lukealter20210008/"><BsPinterest /></a>
@@ -35,30 +35,30 @@ function App() {
                     </div>
                 </div>
             </div>
-                <div class="header-2">
-                    <div class="paginas">
-                        <div class="botoes">
-                            <a class="HOME" href="">HOME</a>
-                            <a class="SOBRE" href="">SOBRE</a>
-                            <a class="SERVICOS" href="">SERVIÇOS</a>
-                            <a class="PAGINAS_item" href="">PÁGINAS</a>
-                            <a class="BLOG" href="">BLOG</a>
-                            <a class="CONTATO" href="">CONTATO</a>
+                <div className="header-2">
+                    <div className="paginas">
+                        <div className="botoes">
+                            <a className="HOME" href="">HOME</a>
+                            <a className="SOBRE" href="">SOBRE</a>
+                            <a className="SERVICOS" href="">SERVIÇOS</a>
+                            <a className="PAGINAS_item" href="">PÁGINAS</a>
+                            <a className="BLOG" href="">BLOG</a>
+                            <a className="CONTATO" href="">CONTATO</a>
                         </div>
-                        <div class="buscar">
+                        <div className="buscar">
                             <input placeholder="BUSCAR" type="text" id="search1"/>
-                            <ul class="list-group" id="list"></ul>
+                            <ul className="list-group" id="list"></ul>
                         </div>
                     </div>                
                 </div>
-            <div class="banner1" id="banner1">
+            <div className="banner1" id="banner1">
             </div>
-            <div class="publicacoes" id="pubs">
-                <ul class="pubList" id="pubList"></ul>
+            <div className="publicacoes" id="pubs">
+                <ul className="pubList" id="pubList"></ul>
             </div>
-            <div class="rodape">
-                <div class="rodape-centro">
-                    <div class="redes-sociais-rp">
+            <div className="rodape">
+                <div className="rodape-centro">
+                    <div className="redes-sociais-rp">
                         <a href="https://www.facebook.com/doggoshoppe"><FaFacebook /></a>
                         <a href="https://www.instagram.com/doggo_shoppe_2022/"><AiFillInstagram /></a>
                         <a href="https://br.pinterest.com/lukealter20210008/"><BsPinterest/></a>
