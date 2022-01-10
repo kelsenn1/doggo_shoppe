@@ -76,19 +76,6 @@ function getRelevancy(value, searchTerm) {
     }
 };
 
-// searchInput.addEventListener("input", (event) => {
-//     let value = event.target.value;
-//     if (value && value.trim().length > 0) {
-//         value && value.trim().toLowerCase();
-//         setList(pgs.filter(pg => {
-//             return pg.name.includes(value);
-//         }).sort((pgA, pgB) => {
-//             return getRelevancy(pgB.name, value) - getRelevancy(pgA.name, value);
-//         }));
-//     } else {
-//         clearList();
-//     }});
-
 const pubList = document.getElementById("pubList");
 
 for (const pg of pgs) {
@@ -113,7 +100,7 @@ for (const pg of pgs) {
     post_text.appendChild(bt);
     pub.appendChild(img);
     pub.appendChild(post_text);
-    pubList.appendChild(pub);
+//    pubList.appendChild(pub);
 };
 
 const banner1 = document.getElementById("banner1");
@@ -127,14 +114,3 @@ for (const pg of pgs) {
     imag.appendChild(img);
     banner1.appendChild(imag);
 };
-
-// $(".banner1").slick({
-//     slidesToShow: 3,
-//     slidesToScroll: 17,
-//     autoplay: true,
-//     autoplaySpeed: 2000,
-//     dots: true,
-//     infinite: true,
-//     centerMode: true,
-//     variableWidth: true
-// });
