@@ -11,7 +11,6 @@ function App() {
     <>
     <head>
         <link rel="stylesheet" href="./css/style.css"/>
-        <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link rel="shortcut icon" href="/imag/favicon.png" type="image/x-icon" />
         <title>doggo shoppe</title>
     </head>
@@ -66,9 +65,6 @@ function App() {
                 </div>
             </div>
         </header>
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <script type="text/javascript" src="./javascript/main.js"></script>
     </body>
     </>
