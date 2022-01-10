@@ -69,7 +69,7 @@ function App() {
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-        <script type="text/javascript" src="./javascript/main.js"defer></script>
+        <script type="text/javascript" src="./javascript/main.js"></script>
     </body>
     </>
   );
