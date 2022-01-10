@@ -99,7 +99,7 @@ for (const pg of pgs) {
     bt.appendChild(buy);
     post_text.appendChild(bt);
     pub.appendChild(img);
-    pubList.appendChild(post_text);
+    pub.appendChild(post_text);
     //pubList.appendChild(pub);
 };
 
@@ -112,5 +112,5 @@ for (const pg of pgs) {
     img.src = pg.img;
     imag.href = pg.href;
     imag.appendChild(img);
-    banner1.appendChild(imag);
+    //banner1.appendChild(imag);
 };
