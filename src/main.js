@@ -76,18 +76,18 @@ function getRelevancy(value, searchTerm) {
     }
 };
 
-searchInput.addEventListener("input", (event) => {
-    let value = event.target.value;
-    if (value && value.trim().length > 0) {
-        value && value.trim().toLowerCase();
-        setList(pgs.filter(pg => {
-            return pg.name.includes(value);
-        }).sort((pgA, pgB) => {
-            return getRelevancy(pgB.name, value) - getRelevancy(pgA.name, value);
-        }));
-    } else {
-        clearList();
-    }});
+// searchInput.addEventListener("input", (event) => {
+//     let value = event.target.value;
+//     if (value && value.trim().length > 0) {
+//         value && value.trim().toLowerCase();
+//         setList(pgs.filter(pg => {
+//             return pg.name.includes(value);
+//         }).sort((pgA, pgB) => {
+//             return getRelevancy(pgB.name, value) - getRelevancy(pgA.name, value);
+//         }));
+//     } else {
+//         clearList();
+//     }});
 
 const pubList = document.getElementById("pubList");
 
