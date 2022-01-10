@@ -99,8 +99,8 @@ for (const pg of pgs) {
     bt.appendChild(buy);
     post_text.appendChild(bt);
     pub.appendChild(img);
-    pub.appendChild(post_text);
-    document.getElementById("pubList").appendChild(pub);
+    pubList.appendChild(post_text);
+    //pubList.appendChild(pub);
 };
 
 const banner1 = document.getElementById("banner1");
