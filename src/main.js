@@ -76,7 +76,7 @@ function getRelevancy(value, searchTerm) {
     }
 };
 
-const pubList = document.getElementById("pubList");
+const pubList = document.getElementById(pubList);
 
 for (const pg of pgs) {
     const pub = document.createElement("li");
