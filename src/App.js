@@ -65,7 +65,7 @@ function App() {
                 </div>
             </div>
         </header>
-        <script type="text/javascript" src="./javascript/main.js"></script>
+        {/* <script type="text/javascript" src="./javascript/main.js"></script> */}
     </body>
     </>
   );

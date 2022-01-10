@@ -100,7 +100,7 @@ for (const pg of pgs) {
     post_text.appendChild(bt);
     pub.appendChild(img);
     pub.appendChild(post_text);
-    //pubList.appendChild(pub);
+    pubList.appendChild(pub);
 };
 
 const banner1 = document.getElementById("banner1");
@@ -112,5 +112,5 @@ for (const pg of pgs) {
     img.src = pg.img;
     imag.href = pg.href;
     imag.appendChild(img);
-    //banner1.appendChild(imag);
+    banner1.appendChild(imag);
 };
