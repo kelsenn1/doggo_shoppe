@@ -3,7 +3,6 @@ import JSONDATA from "./MOCK_DATA.json";
 import { FaFacebook } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsPinterest } from "react-icons/bs";
-import logo from "./imag/doggo_logo.png";
 import { useState } from 'react';
 import React from "react";
 
