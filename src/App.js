@@ -74,9 +74,41 @@ function App() {
                     <div className='pub'>
                         <div className='imag'><img src={prod1}></img></div>
                         <div className='desc'>
-                            <h1>{JSONDATA.name}</h1>
-                            <h3>{JSONDATA.desc}</h3>
-                            <a className='buy' href={JSONDATA.href}>comprar</a>
+                            <h1>coleira que brilha no escuro</h1>
+                            <h3>O carregamento de usb conduziu o colar do cão anti-perdido/evita o colar do acidente do carro para cães cachorros coleiras do cão conduz fontes conduzidas produtos do animal de estimação</h3>
+                            <a className='buy' href="https://s.click.aliexpress.com/e/_AchOwy">comprar</a>
+                        </div>
+                    </div>
+                    <div className='pub'>
+                        <div className='imag'><img src={prod2}></img></div>
+                        <div className='desc'>
+                            <h1>escova para remoção de pelos</h1>
+                            <h3>Escova para remoção de pelos de animais de estimação, pente para cães e gatos, escova desembaraçadora e aparadora de pelos longos, foscos</h3>
+                            <a className='buy' href="https://s.click.aliexpress.com/e/_AFHdpW">comprar</a>
+                        </div>
+                    </div>
+                    <div className='pub'>
+                        <div className='imag'><img src={prod3}></img></div>
+                        <div className='desc'>
+                            <h1>capa para transporte de cães no carro</h1>
+                            <h3>Prodigen cão capa de assento do carro à prova dwaterproof água pet travel cão transportadora hammock traseira do carro traseiro protetor de assento esteira transportadora segurança para cães</h3>
+                            <a className='buy' href="https://s.click.aliexpress.com/e/_ASF9qo">comprar</a>
+                        </div>
+                    </div>
+                    <div className='pub'>
+                        <div className='imag'><img src={prod1}></img></div>
+                        <div className='desc'>
+                            <h1>escova de banho para pets</h1>
+                            <h3>Casa de banho cachorro grande cão gato banho massagem luvas escova macio segurança silicone pet acessórios para cães gatos ferramentas maschas produtos</h3>
+                            <a className='buy' href="https://s.click.aliexpress.com/e/_9gOCCC">comprar</a>
+                        </div>
+                    </div>
+                    <div className='pub'>
+                        <div className='imag'><img src={prod1}></img></div>
+                        <div className='desc'>
+                            <h1>escova de pelo de cao</h1>
+                            <h3>Kimpets gato pente de cão pente de cabelo de gato pente de cabelo de cão de estimação especial agulha pente de gato limpeza de cabelo e produtos de beleza</h3>
+                            <a className='buy' href="https://s.click.aliexpress.com/e/_9AUYbm">comprar</a>
                         </div>
                     </div>
             </div>
