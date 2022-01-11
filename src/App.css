@@ -169,12 +169,13 @@
     display: flex;
 }
 .user a {
-    height: 40px;
-    color: #ffffff;
+    color: #fff;
     align-items: center;
     justify-content: center;
+    margin: 10px 0 5px 0;
+    text-decoration: none;
+    text-align: center;
     display: flex;
-    padding: 0px 10px 0px 10px;
 }
 .item-button {
     width: 100%;
