@@ -338,7 +338,7 @@ justify-content:center;
     height: auto;
 }
 
-.pub h1 {
+.pub div.desc h1 {
     padding: 0px 0 0 40px;
     width: 100%;
     height: 80px;
@@ -346,12 +346,12 @@ justify-content:center;
     font-size: 40px;
     font-family: cursive;
 }
-.pub h3 {
+.pub div.desc h3 {
     padding: 0 0 0 40px;
     height: 80px;
     display: flex;
 }
-.pub button {
+.pub div.desc a {
     background-color: aqua;
     width: 150px;
     height: 40px;
