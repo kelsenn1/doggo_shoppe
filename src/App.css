@@ -159,7 +159,7 @@
     flex-direction:column;
     display: flex;
 }
-.list-group {
+.user {
     margin: unset;
     z-index: 11;
     background-color: #252525;
@@ -169,7 +169,7 @@
     display: flex;
 }
 .list-group-item {
-        height: 40px;
+    height: 40px;
     color: #ffffff;
     align-items: center;
     justify-content: center;
