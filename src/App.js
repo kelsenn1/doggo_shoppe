@@ -70,12 +70,10 @@ function App() {
             {JSONDATA.map((val, key) => {
                 return (
                     <div className='pub' key={key}>
-                        <div><img src={val.img}></img></div>
-                        <div>
-                            <h1>{val.name}</h1>
-                            <h3>{val.desc}</h3>
-                            <button href={val.href}>comprar</button>
-                        </div>
+                        <div className='imag'><img src={val.img}></img></div>
+                        <h1>{val.name}</h1>
+                        <h3>{val.desc}</h3>
+                        <a href={val.href}>comprar</a>
                     </div>
                 );
             })}
