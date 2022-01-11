@@ -62,7 +62,7 @@ function App() {
                                         <p>{val.name}</p>
                                     </div>
                                     );
-                                })};
+                                })}
                         </div>
                     </div>                
                 </div>
