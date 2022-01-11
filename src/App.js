@@ -111,13 +111,13 @@ function App() {
                             <a className='buy' href="https://s.click.aliexpress.com/e/_9AUYbm">comprar</a>
                         </div>
                     </div>
-            </div>
-            <div className="rodape">
-                <div className="rodape-centro">
-                    <div className="redes-sociais-rp">
-                        <a href="https://www.facebook.com/doggoshoppe"><FaFacebook /></a>
-                        <a href="https://www.instagram.com/doggo_shoppe_2022/"><AiFillInstagram /></a>
-                        <a href="https://br.pinterest.com/lukealter20210008/"><BsPinterest/></a>
+                <div className="rodape">
+                    <div className="rodape-centro">
+                        <div className="redes-sociais-rp">
+                            <a href="https://www.facebook.com/doggoshoppe"><FaFacebook /></a>
+                            <a href="https://www.instagram.com/doggo_shoppe_2022/"><AiFillInstagram /></a>
+                            <a href="https://br.pinterest.com/lukealter20210008/"><BsPinterest/></a>
+                        </div>
                     </div>
                 </div>
             </div>
