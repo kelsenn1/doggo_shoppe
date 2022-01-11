@@ -76,18 +76,18 @@ function getRelevancy(value, searchTerm) {
     }
 };
 
-// searchInput.addEventListener("input", (event) => {
-//     let value = event.target.value;
-//     if (value && value.trim().length > 0) {
-//         value && value.trim().toLowerCase();
-//         setList(pgs.filter(pg => {
-//             return pg.name.includes(value);
-//         }).sort((pgA, pgB) => {
-//             return getRelevancy(pgB.name, value) - getRelevancy(pgA.name, value);
-//         }));
-//     } else {
-//         clearList();
-//     }});
+searchInput.addEventListener("input", (event) => {
+    let value = event.target.value;
+    if (value && value.trim().length > 0) {
+        value && value.trim().toLowerCase();
+        setList(pgs.filter(pg => {
+            return pg.name.includes(value);
+        }).sort((pgA, pgB) => {
+            return getRelevancy(pgB.name, value) - getRelevancy(pgA.name, value);
+        }));
+    } else {
+        clearList();
+    }});
 
 const pubList = document.getElementById("pubList");
 
@@ -113,7 +113,7 @@ for (const pg of pgs) {
     post_text.appendChild(bt);
     pub.appendChild(img);
     pub.appendChild(post_text);
-    //pubList.appendChild(pub);
+    pubList.appendChild(pub);
 };
 
 const banner1 = document.getElementById("banner1");
@@ -125,5 +125,5 @@ for (const pg of pgs) {
     img.src = pg.img;
     imag.href = pg.href;
     imag.appendChild(img);
-    //banner1.appendChild(imag);
+    banner1.appendChild(imag);
 };

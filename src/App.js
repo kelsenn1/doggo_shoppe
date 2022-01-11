@@ -65,6 +65,7 @@ function App() {
                 </div>
             </div>
         </header>
+        <script src='./src/main.js'></script>
     </body>
     </>
   );
