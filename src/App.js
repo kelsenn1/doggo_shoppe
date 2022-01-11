@@ -71,12 +71,12 @@ function App() {
                     </div>                
                 </div>
             <div className="banner1" id="banner1">
-                    <div className='pub' key={key}>
+                    <div className='pub'>
                         <div className='imag'><img src={prod1}></img></div>
                         <div className='desc'>
-                            <h1>{val.name}</h1>
-                            <h3>{val.desc}</h3>
-                            <a className='buy' href={val.href}>comprar</a>
+                            <h1>{JSONDATA.name}</h1>
+                            <h3>{JSONDATA.desc}</h3>
+                            <a className='buy' href={JSONDATA.href}>comprar</a>
                         </div>
                     </div>
             </div>
