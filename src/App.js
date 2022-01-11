@@ -4,10 +4,12 @@ import { FaFacebook } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsPinterest } from "react-icons/bs";
 import logo from "./imag/doggo_logo.png";
+import { useState } from 'react';
 import React from "react";
 
 
 function App() {
+    const [searchTerm, setSearchTerm] = useState("")
   return (
     <>
     <head>
@@ -46,11 +48,14 @@ function App() {
                             <a className="CONTATO" href="">CONTATO</a>
                         </div>
                         <div className="buscar">
-                            <input placeholder="BUSCAR" type="text" id="search1"/>
+                            <input placeholder="BUSCAR" type="text" id="search1" onChange={event => {setSearchTerm(event.target.value)}} />
                                 {JSONDATA.map((val, key)=> {
-                                    return <div>{val.name} </div>
-                                })}
-                            <ul className="list-group" id="list"></ul>
+                                    return (
+                                    <div className='user' key={key}>
+                                        <p>{val.name}</p>
+                                    </div>
+                                    );
+                                })};
                         </div>
                     </div>                
                 </div>
