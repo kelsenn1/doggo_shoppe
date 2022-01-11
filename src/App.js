@@ -49,7 +49,14 @@ function App() {
                         </div>
                         <div className="buscar">
                             <input placeholder="BUSCAR" type="text" id="search1" onChange={event => {setSearchTerm(event.target.value)}} />
-                                {JSONDATA.map((val, key)=> {
+                                {JSONDATA.filter((val)=> {
+                                    if (searchTerm == "") {
+                                        return val }
+                                    else if (val.name.toLowerCase().includes(searchTerm.toLowerCase)) {
+                                        return val;
+                                    }
+                                    }
+                                ).map((val, key) => {
                                     return (
                                     <div className='user' key={key}>
                                         <p>{val.name}</p>
