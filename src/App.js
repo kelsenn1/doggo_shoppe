@@ -51,7 +51,7 @@ function App() {
                             <input placeholder="BUSCAR" type="text" id="search1" onChange={event => {setSearchTerm(event.target.value)}} />
                                 {JSONDATA.filter((val)=> {
                                     if (searchTerm == "") {
-                                        return val
+                                        return false
                                     } else if (val.name.toLowerCase().includes(searchTerm.toLowerCase())) {
                                         return val
                                     }
