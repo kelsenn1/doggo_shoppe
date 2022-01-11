@@ -71,9 +71,11 @@ function App() {
                 return (
                     <div className='pub' key={key}>
                         <div className='imag'><img src={val.img}></img></div>
-                        <h1>{val.name}</h1>
-                        <h3>{val.desc}</h3>
-                        <a href={val.href}>comprar</a>
+                        <div className='desc'>
+                            <h1>{val.name}</h1>
+                            <h3>{val.desc}</h3>
+                            <a className='buy' href={val.href}>comprar</a>
+                        </div>
                     </div>
                 );
             })}
