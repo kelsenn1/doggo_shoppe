@@ -1,5 +1,5 @@
 import './App.css';
-import "./MOCK_DATA.json";
+import {JSONDATA} from "./MOCK_DATA.json";
 import { FaFacebook } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsPinterest } from "react-icons/bs";
@@ -47,6 +47,9 @@ function App() {
                         </div>
                         <div className="buscar">
                             <input placeholder="BUSCAR" type="text" id="search1"/>
+                                {JSONDATA.map((val, key)=> {
+                                    return <div>{val.name} </div>
+                                })}
                             <ul className="list-group" id="list"></ul>
                         </div>
                     </div>                
