@@ -104,7 +104,7 @@ function App() {
                         </div>
                     </div>
                     <div className='pub'>
-                        <div className='imag'><img src={prod1}></img></div>
+                        <div className='imag'><img src={prod5}></img></div>
                         <div className='desc'>
                             <h1>escova de pelo de cao</h1>
                             <h3>Kimpets gato pente de cão pente de cabelo de gato pente de cabelo de cão de estimação especial agulha pente de gato limpeza de cabelo e produtos de beleza</h3>
