@@ -69,7 +69,7 @@ function App() {
             <div className="banner1" id="banner1">
             {JSONDATA.map((val, key) => {
                 return (
-                    <div className='user' key={key}>
+                    <div className='pub' key={key}>
                         <div><img src={val.img}></img></div>
                         <div>
                             <h1>{val.name}</h1>

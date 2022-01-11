@@ -323,15 +323,15 @@
     height: 30px;
     width: auto;
 }
-    .publicacoes {
-    width: 100%;
-    justify-content:center;
+.publicacoes {
+width: 100%;
+justify-content:center;
 }
 .pub {
 
     display: flex;
 }
-.pub img {
+.pub div.imag img {
     padding: 20px 0 20px 0px;
     max-width: 500px;
     width: 500px;
@@ -351,7 +351,7 @@
     height: 80px;
     display: flex;
 }
-.pub a {
+.pub button {
     background-color: aqua;
     width: 150px;
     height: 40px;
