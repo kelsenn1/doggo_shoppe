@@ -6,7 +6,11 @@ import { BsPinterest } from "react-icons/bs";
 import logo from "./imag/doggo_logo.png";
 import { useState } from 'react';
 import React from "react";
-
+import prod1 from "./imag/catal/prod1.png"
+import prod2 from "./imag/catal/prod2.png"
+import prod3 from "./imag/catal/prod3.png"
+import prod4 from "./imag/catal/prod4.png"
+import prod5 from "./imag/catal/prod5.png"
 
 function App() {
     const [searchTerm, setSearchTerm] = useState("")
@@ -67,18 +71,14 @@ function App() {
                     </div>                
                 </div>
             <div className="banner1" id="banner1">
-            {JSONDATA.map((val, key) => {
-                return (
                     <div className='pub' key={key}>
-                        <div className='imag'><img src={val.img}></img></div>
+                        <div className='imag'><img src={prod1}></img></div>
                         <div className='desc'>
                             <h1>{val.name}</h1>
                             <h3>{val.desc}</h3>
                             <a className='buy' href={val.href}>comprar</a>
                         </div>
                     </div>
-                );
-            })}
             </div>
             <div className="rodape">
                 <div className="rodape-centro">
