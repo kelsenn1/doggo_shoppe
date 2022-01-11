@@ -6,11 +6,11 @@ import { BsPinterest } from "react-icons/bs";
 import logo from "./imag/doggo_logo.png";
 import { useState } from 'react';
 import React from "react";
-import prod1 from "./imag/catal/prod1.png"
-import prod2 from "./imag/catal/prod2.png"
-import prod3 from "./imag/catal/prod3.png"
-import prod4 from "./imag/catal/prod4.png"
-import prod5 from "./imag/catal/prod5.png"
+import prod1 from "./imag/catal/prod1.jpg"
+import prod2 from "./imag/catal/prod2.jpg"
+import prod3 from "./imag/catal/prod3.jpg"
+import prod4 from "./imag/catal/prod4.jpg"
+import prod5 from "./imag/catal/prod5.jpg"
 
 function App() {
     const [searchTerm, setSearchTerm] = useState("")
