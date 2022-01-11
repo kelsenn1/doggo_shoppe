@@ -168,7 +168,7 @@
     padding-inline-start: 0px;
     display: flex;
 }
-.list-group-item {
+.user a {
     height: 40px;
     color: #ffffff;
     align-items: center;

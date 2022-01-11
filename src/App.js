@@ -59,7 +59,7 @@ function App() {
                                 }).map((val, key) => {
                                     return (
                                     <div className='user' key={key}>
-                                        <p>{val.name}</p>
+                                        <a href={val.href}>{val.name}</a>
                                     </div>
                                     );
                                 })}
